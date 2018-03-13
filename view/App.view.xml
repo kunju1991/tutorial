@@ -1,0 +1,19 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" displayBlock="true"
+		controllerName="com.tutorial.controller.App" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title" >
+		<content>
+			
+			<VBox>
+				<HBox>
+					<Label text="UserName"></Label>
+					<Input value="" type="string"></Input>
+				</HBox>
+				<HBox>
+					<Label text="Password"></Label>
+					<Input value="" type="password"></Input>
+				</HBox>
+				<Button text="Login"></Button>
+			</VBox>
+		</content>
+	</Page>
+</core:View>
