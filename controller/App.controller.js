@@ -24,8 +24,7 @@ sap.ui.define([
 		* @memberOf tutorial.App
 		*/
 			onBeforeRendering: function() {
-		
-				
+						
 			},
 
 		/**
